@@ -1,5 +1,5 @@
 #!/bin/sh
-# Created by wangzki
+# Created by WaGo
 
 #Requirement
 if [ ! -e /usr/bin/curl ]; then
