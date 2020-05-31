@@ -233,7 +233,7 @@ debug = 6
 
 [openvpn]
 accept = 127.0.0.1:1147
-connect = $MYIP:587
+connect = $MYIP:443
 TIMEOUTclose = 0
 verify = 0
 sni = m.facebook.com
@@ -251,7 +251,7 @@ socket = r:TCP_NODELAY=1
 client = no
 
 [openvpn]
-accept = 587
+accept = 443
 connect = 127.0.0.1:1147
 cert = /etc/stunnel/stunnel.pem
 
